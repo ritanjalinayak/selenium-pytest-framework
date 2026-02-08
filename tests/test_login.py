@@ -13,7 +13,13 @@ def test_user_registration(initial_setup):
         "password": "Test@12345"
     }
 
+
     register = RegisterPage(driver)
+
+
+
+# Hi Alok kese ho
+
     register.userRegister(user_data)
 
     # Validation
