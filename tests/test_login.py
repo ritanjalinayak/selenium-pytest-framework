@@ -14,6 +14,7 @@ def test_user_registration(initial_setup):
     }
 
     register = RegisterPage(driver)
+    
     register.userRegister(user_data)
 
     # Validation
