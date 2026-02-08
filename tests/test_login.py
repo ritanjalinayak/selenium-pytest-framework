@@ -12,9 +12,10 @@ def test_user_registration(initial_setup):
         "company": "QA Company",
         "password": "Test@12345"
     }
+    
 
     register = RegisterPage(driver)
-    
+
     register.userRegister(user_data)
 
     # Validation
