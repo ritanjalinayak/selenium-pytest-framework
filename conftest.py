@@ -10,7 +10,7 @@ def initial_setup():
     service=Service(ChromeDriverManager().install())
     driver=webdriver.Chrome(service=service)
     driver.maximize_window()
-    driver.get("https://demo.nopcommerce.com/register?returnUrl=%2F")
+    driver.get("https://practicetestautomation.com/practice-test-login/")
 
     time.sleep(2)
     yield driver
