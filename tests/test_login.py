@@ -1,32 +1,31 @@
 
-from pages.register_page import RegisterPage
-from selenium.webdriver.common.by import By
+import pytest
+from pages.login_page import loginpage
+from testdata.login_data import login_regression_data
 
-def test_user_registration(initial_setup):
-    driver=initial_setup
+@pytest.mark.regression
+@pytest.mark.parametrize("username,password,expected", login_regression_data)
 
-    user_data = {
-        "first_name": "Ritu",
-        "last_name": "Tester",
-        "email": "ritu.test006@gmail.com",
-        "company": "QA Company",
-        "password": "Test@12345"
-    }
+# Setup fixture /
+def test_login_regression(initial_setup, username, password, expected):
 
+    driver = initial_setup
+    login = loginpage(driver)
 
-    register = RegisterPage(driver)
+    login.login(username, password)
 
+    # Valid login case
+    if expected == "success":
+        assert "Logged In Successfully" in login.get_success_msg()
 
-
-# Hi Alok kese ho
-
-    register.userRegister(user_data)
-
-    # Validation
-    
-    # assert "Your registration completed" in driver.page_source.lower()
-    
+    # Invalid cases
+    else:
+        assert expected in login.get_error_msg()
 
 
-    success_msg = driver.find_element(By.CLASS_NAME, "result")
-    assert "registration completed" in success_msg.text.lower()
+
+
+
+
+
+  
