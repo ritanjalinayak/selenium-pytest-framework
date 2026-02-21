@@ -1,0 +1,8 @@
+2026-02-22 00:28:27,720 - INFO - TablePage - Navigating to URL: https://practicetestautomation.com/practice-test-table/
+2026-02-22 00:28:28,473 - INFO - TablePage - Clicking on ('class name', 'dropdown-label')
+2026-02-22 00:28:28,689 - INFO - TablePage - Clicking on ('xpath', "//li[text()='10,000+']")
+2026-02-22 00:28:28,878 - INFO - TablePage - get_informations is called
+2026-02-22 00:28:28,978 - INFO - TablePage - pulled data for enrollment 64284
+2026-02-22 00:28:29,031 - INFO - TablePage - pulled data for enrollment 14762
+2026-02-22 00:28:29,088 - INFO - TablePage - pulled data for enrollment 16452
+2026-02-22 00:28:29,150 - INFO - TablePage - pulled data for enrollment 10705

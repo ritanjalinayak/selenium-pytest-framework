@@ -1,0 +1,4 @@
+2026-02-20 14:27:34,172 - INFO - loginpage - Entering text into ('name', 'username')
+2026-02-20 14:27:34,566 - INFO - loginpage - Entering text into ('id', 'password')
+2026-02-20 14:27:34,737 - INFO - loginpage - Clicking on ('id', 'submit')
+2026-02-20 14:27:35,853 - INFO - loginpage - Reading from  ('class name', 'post-title')

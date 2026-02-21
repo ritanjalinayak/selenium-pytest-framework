@@ -1,0 +1,3 @@
+2026-02-21 20:45:21,048 - INFO - TablePage - Navigating to URL: https://practicetestautomation.com/practice-test-table/
+2026-02-21 20:45:21,875 - INFO - TablePage - Clicking on ('xpath', "//input[@value='Java']")
+2026-02-21 20:45:22,083 - INFO - TablePage - get_informations is called

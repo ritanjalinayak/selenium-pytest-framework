@@ -1,0 +1,2 @@
+2026-02-22 00:23:45,774 - INFO - TablePage - Navigating to URL: https://practicetestautomation.com/practice-test-table/
+2026-02-22 00:23:46,562 - INFO - TablePage - Clicking on ('xpath', "//input[@value='Java']")

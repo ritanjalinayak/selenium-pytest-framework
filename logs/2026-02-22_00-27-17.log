@@ -1,0 +1,6 @@
+2026-02-22 00:27:17,620 - INFO - TablePage - Navigating to URL: https://practicetestautomation.com/practice-test-table/
+2026-02-22 00:27:18,427 - INFO - TablePage - Clicking on ('class name', 'dropdown-label')
+2026-02-22 00:27:18,640 - INFO - TablePage - Clicking on ('xpath', "//li[text()='10,000+']")
+2026-02-22 00:27:18,845 - INFO - TablePage - get_informations is called
+2026-02-22 00:27:18,870 - INFO - TablePage - pulled data for enrollment [<selenium.webdriver.remote.webelement.WebElement (session="2be7e85799774b43e1586e67ceddc574", element="f.1D0AA96EE528181D8A7360B8E30D6AC3.d.1328C3E7676166A636A167395AFC2193.e.46")>] 
+2026-02-22 00:27:18,892 - INFO - TablePage - data came False

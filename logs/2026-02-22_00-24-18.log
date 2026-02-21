@@ -1,0 +1,3 @@
+2026-02-22 00:24:18,062 - INFO - loginpage - Entering text into ('name', 'username')
+2026-02-22 00:24:18,273 - INFO - loginpage - Entering text into ('id', 'password')
+2026-02-22 00:24:18,419 - INFO - loginpage - Clicking on ('id', 'submit')

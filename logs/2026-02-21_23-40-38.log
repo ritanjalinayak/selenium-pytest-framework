@@ -1,0 +1,18 @@
+2026-02-21 23:40:38,156 - INFO - TablePage - Navigating to URL: https://practicetestautomation.com/practice-test-table/
+2026-02-21 23:40:38,903 - INFO - TablePage - Clicking on ('xpath', "//input[@value='Java']")
+2026-02-21 23:40:39,322 - INFO - TablePage - get_informations is called
+2026-02-21 23:40:39,450 - INFO - TablePage - pulled data Java
+2026-02-21 23:40:39,542 - INFO - TablePage - pulled data Java
+2026-02-21 23:40:39,598 - INFO - TablePage - pulled data Java
+2026-02-21 23:40:39,647 - INFO - TablePage - pulled data Java
+2026-02-21 23:40:39,689 - INFO - TablePage - pulled data Java
+2026-02-21 23:40:39,728 - INFO - TablePage - pulled data Java
+2026-02-21 23:40:48,845 - INFO - TablePage - Navigating to URL: https://practicetestautomation.com/practice-test-table/
+2026-02-21 23:40:49,184 - INFO - TablePage - uncheck the uncheckbox('xpath', "//input[@name='level' and @value='Intermediate']")
+2026-02-21 23:40:49,820 - INFO - TablePage - uncheck the uncheckbox('xpath', "//input[@name='level' and @value='Advanced']")
+2026-02-21 23:40:50,062 - INFO - TablePage - get_informations is called
+2026-02-21 23:40:50,107 - INFO - TablePage - pulled data Beginner
+2026-02-21 23:40:50,134 - INFO - TablePage - pulled data Beginner
+2026-02-21 23:40:50,156 - INFO - TablePage - pulled data Beginner
+2026-02-21 23:40:50,220 - INFO - TablePage - pulled data Beginner
+2026-02-21 23:40:50,243 - INFO - TablePage - pulled data Beginner

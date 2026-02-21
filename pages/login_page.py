@@ -1,10 +1,8 @@
 from selenium.webdriver.common.by import By
-import time
-class loginpage:
-    def __init__(self,driver):
-        self.driver=driver
+from base.base_page import BasePage
 
 
+class loginpage(BasePage):
     username_input=(By.NAME ,"username")
     password_input=(By.ID , "password")
     sumit_button=(By.ID , "submit")
@@ -12,28 +10,18 @@ class loginpage:
     success_msg=(By.CLASS_NAME , "post-title")
 
 
-    def enter_username(self, username):
-        self.driver.find_element(*self.username_input).clear()   
-        self.driver.find_element(*self.username_input).send_keys(username)
 
-    def enter_password(self,password):
-        self.driver.find_element(*self.password_input).clear()
-        self.driver.find_element(*self.password_input).send_keys(password)
-
-    def click_sumit(self):
-        self.driver.find_element(*self.sumit_button).click()
-
-
-    def login(self,username,password):
-        self.enter_username(username)
-        self.enter_password(password)
-        self.click_sumit()  
+    def login(self, username, password):
+        self.enter_text(self.username_input, username)
+        self.enter_text(self.password_input, password)
+        self.click(self.sumit_button)
+     
 
     def get_success_msg(self):
-        return self.driver.find_element(*self.success_msg).text
+        return self.read_msg(self.success_msg)
 
     def get_error_msg(self):
-        return self.driver.find_element(*self.error_msg).text          
+        return self.read_msg(self.error_msg)        
 
 
 

@@ -1,0 +1,6 @@
+2026-02-20 14:29:36,308 - ERROR - loginpage - Hi Mu gote khelali
+2026-02-20 14:29:36,308 - INFO - loginpage - Entering text into ('name', 'username')
+2026-02-20 14:29:36,528 - ERROR - loginpage - Hi Mu gote khelali
+2026-02-20 14:29:36,529 - INFO - loginpage - Entering text into ('id', 'password')
+2026-02-20 14:29:36,705 - INFO - loginpage - Clicking on ('id', 'submit')
+2026-02-20 14:29:37,815 - INFO - loginpage - Reading from  ('class name', 'post-title')
